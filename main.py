@@ -388,7 +388,7 @@ if __name__ == "__main__":
     seq_len = 10        #length of sequence
     max_no = 100        #max number in a sequence
     lr = 0.01           #learning rate
-    max_iter = 20000     #maximum iterations
+    max_iter = 3000     #maximum iterations
     n_a = 80            #number of parameters in a branch of RNN
 
     a0_encoder = np.random.normal(0, 1, (n_a, batch_size))    #initial entry of a0 in encoder first cell
